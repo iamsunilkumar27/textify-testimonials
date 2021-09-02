@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
   return (
     <div >
-
+      <Testimonial></Testimonial>
     </div>
   );
 }
