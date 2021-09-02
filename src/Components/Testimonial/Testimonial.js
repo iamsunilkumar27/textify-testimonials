@@ -42,7 +42,7 @@ export default function Testimonial() {
                                     data.map((x, i) => {
                                         return (
                                             <div key={x.id} className={i === 0 ? "carousel-item active text-center" : "carousel-item text-center"} data-bs-interval="10000">
-                                                <img src={x.avatar} className='rounded-circle col-12 mt-3 col-md-6 img-height '></img>
+                                                <img alt='img' src={x.avatar} className='rounded-circle col-12 mt-3 col-md-6 img-height '></img>
                                                 <p className='carousel-paragraph mt-3'>{x.message}</p>
                                                 <h2 >{x.name}</h2>
                                                 <h3 >{x.designation}</h3>
