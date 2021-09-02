@@ -1,0 +1,18 @@
+.carousel-paragraph{
+    padding: 0px 8rem;
+}
+.img-height{
+    height: 30rem;
+}
+.span-color{
+    background-color: green;
+}
+@media only screen and (max-width: 780px){
+    .carousel-paragraph{
+        padding: 0px;
+    }
+    .img-height{
+        height: 100%;
+    }
+
+}
